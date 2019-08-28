@@ -388,6 +388,7 @@ if __name__ == '__main__':
     print(zwischenergebnis)
 
     vocab = list(wv.vocab)
+    print("Ende")
     #vocab2 = [word[0] for word in nltk.pos_tag(nltk.word_tokenize(vocab)) if "NN" in word[1]]
     #print(vocab2)
     #X = w2v[vocab]
